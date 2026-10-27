@@ -1,0 +1,8 @@
+# Give players the Origin Wand when they join (if they don't have one)
+give-wand-on-join: true
+
+# Can abilities hurt / push other players? (false = mobs only)
+affect-players: false
+
+# Cooldown (seconds) for the "Ashen Rebirth" / "Second Chance" survive-death passives
+rebirth-cooldown-seconds: 300

@@ -1,0 +1,18 @@
+name: ForeverOrigins
+version: '${project.version}'
+main: dev.forever.origins.ForeverOrigins
+api-version: '1.20'
+author: You
+description: Pick one of ten origins from a menu. Each origin has ten abilities from the start.
+commands:
+  origin:
+    description: Open the Origins menu
+    aliases: [origins, og]
+    usage: /origin [wand|use|reset <player>|set <player> <origin>]
+permissions:
+  foreverorigins.use:
+    description: Use origins
+    default: true
+  foreverorigins.admin:
+    description: Reset or set other players' origins
+    default: op
